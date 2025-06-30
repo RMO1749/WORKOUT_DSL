@@ -42,12 +42,17 @@ save workout
 The interpreter can be executed using Python:
 
 ```bash
-python interpreter.py full_body.dsl
-```
+# Clone the repository
+git clone https://github.com/your-username/WorkoutDSL.git
 
+# Navigate into the project directory
+cd WorkoutDSL
+
+# Run the interpreter on an example DSL script
+python interpreter.py examples/full_body.dsl
+
+```
 ## 📁 Folder Structure
-
-```
 WorkoutDSL_Project/
 │
 ├── examples/
